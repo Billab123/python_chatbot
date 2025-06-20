@@ -1,0 +1,34 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "What's up"],
+      "responses": ["Hello!", "Hi there!", "Hey! How can I help?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you", "Goodbye", "Later"],
+      "responses": ["Goodbye!", "See you later!", "Bye! Take care!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Thx"],
+      "responses": ["You're welcome!", "No problem!", "Glad to help!"]
+    },
+    {
+      "tag": "name",
+      "patterns": ["What's your name?", "Who are you?"],
+      "responses": ["I am a chatbot built with Python!", "I'm your friendly assistant."]
+    },
+    {
+      "tag": "age",
+      "patterns": ["How old are you?", "When were you created?"],
+      "responses": ["I was created recently. I'm always learning!"]
+    },
+    {
+      "tag": "default",
+      "patterns": [],
+      "responses": ["Sorry, I didn't understand that. Could you rephrase?"]
+    }
+  ]
+}
